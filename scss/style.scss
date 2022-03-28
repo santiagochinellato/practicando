@@ -1,2 +1,14 @@
 @import "./base/reset";
 @import "./base/typo";
+@import "./utilities/variables";
+
+// Layout
+@import "./layout/navbar";
+// components
+@import "./components/botones";
+// mixins
+@import "./utilities/mixins";
+
+body {
+  background-color: $colorBackground;
+}

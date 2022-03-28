@@ -1,0 +1,28 @@
+@import "../utilities/variables";
+
+.btn {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 100px;
+  font: $titulo;
+  font-size: 16px;
+  color: $colorTextoBoton;
+  &:hover {
+    color: $colorTextoPrincipal;
+    background-color: $colorTextoBoton;
+  }
+}
+
+.btnTwo {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 100px;
+  font: $titulo;
+  font-size: 16px;
+  color: $colorTextoPrincipal;
+  background-color: $colorTextoBoton;
+  &:hover {
+    color: $colorTextoBoton;
+    background-color: $colorTextoPrincipal;
+  }
+}
