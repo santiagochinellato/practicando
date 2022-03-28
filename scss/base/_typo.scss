@@ -1,35 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  outline: none;
-}
-
+// fuente manrope
 @font-face {
   font-family: "manrope";
   src: url("../../fonts/Manrope/static/Manrope-ExtraBold.ttf");
   font-style: bold;
   font-weight: bold;
 }
-
+// helvatica neue
 @font-face {
-  font-family: "helvetica neue";
+  font-family: "helvetica";
   src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Roman.ttf");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "helvetica neue";
+  font-family: "helvetica";
   src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Medium.ttf");
   font-style: medium;
   font-weight: medium;
 }
 
 @font-face {
-  font-family: "helvetica neue";
+  font-family: "helvetica";
   src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Bold.ttf");
   font-style: bold;
   font-weight: bold;
