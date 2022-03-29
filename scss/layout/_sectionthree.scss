@@ -1,0 +1,112 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.sectionThree {
+  margin: 0 4% 0 2%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 20% 40% 10%;
+  grid-template-areas:
+    "divOne divTwo "
+    "divOne divThree "
+    "divFour divThree ";
+
+  .sectionThreeGridOne {
+    grid-area: divOne;
+    .imgCirculoSectionThree {
+      width: 263px;
+      position: relative;
+      left: 10px;
+    }
+    .imgIconoSectionThree {
+      width: 182px;
+      position: relative;
+      bottom: 230px;
+      left: 50px;
+      animation-name: iconOne;
+      -webkit-animation-duration: 1s;
+      animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+
+      @keyframes iconOne {
+        0% {
+          transform: scale(0, 0) rotate(0deg);
+        }
+        25% {
+          transform: scale(1, 1);
+        }
+        90% {
+          transform: scale(1) rotate(0deg);
+        }
+        100% {
+          transform: scale(0);
+        }
+      }
+    }
+  }
+
+  .sectionThreeGridTwo {
+    grid-area: divTwo;
+    .imgIconoSectionThreeTwo {
+      width: 124px;
+      position: relative;
+      left: 570px;
+      bottom: 30px;
+      animation-name: circOne;
+      -webkit-animation-duration: 1s;
+      animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+
+      @keyframes circOne {
+        0% {
+          transform: scale(0, 0) rotate(0deg);
+        }
+        25% {
+          transform: scale(1, 1);
+        }
+        50% {
+          transform: rotate(-20deg);
+        }
+        75% {
+          transform: rotate(10deg);
+        }
+        90% {
+          transform: scale(1) rotate(0deg);
+        }
+        100% {
+          transform: scale(0);
+        }
+      }
+    }
+  }
+  .sectionThreeGridThree {
+    grid-area: divThree;
+    p {
+      font: $subtitulo;
+      color: $colorTextoPrincipal;
+      text-align: right;
+      margin-top: 25px;
+    }
+  }
+  .sectionThreeGridFour {
+    grid-area: divFour;
+    .imgCiculoSectionThreeTwo {
+      width: 33px;
+      z-index: 2;
+      position: relative;
+      left: 276px;
+      bottom: 8px;
+    }
+    .imgCirculoSectionThreeThree {
+      width: 51px;
+      position: relative;
+      left: 230px;
+    }
+  }
+}

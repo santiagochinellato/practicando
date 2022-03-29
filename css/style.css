@@ -361,6 +361,115 @@
   height: auto;
 }
 
+.sectionThree {
+  margin: 0 4% 0 2%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 20% 40% 10%;
+  grid-template-areas: "divOne divTwo " "divOne divThree " "divFour divThree ";
+}
+
+.sectionThree .sectionThreeGridOne {
+  grid-area: divOne;
+}
+
+.sectionThree .sectionThreeGridOne .imgCirculoSectionThree {
+  width: 263px;
+  position: relative;
+  left: 10px;
+}
+
+.sectionThree .sectionThreeGridOne .imgIconoSectionThree {
+  width: 182px;
+  position: relative;
+  bottom: 230px;
+  left: 50px;
+  animation-name: iconOne;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes iconOne {
+  0% {
+    transform: scale(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  90% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.sectionThree .sectionThreeGridTwo {
+  grid-area: divTwo;
+}
+
+.sectionThree .sectionThreeGridTwo .imgIconoSectionThreeTwo {
+  width: 124px;
+  position: relative;
+  left: 570px;
+  bottom: 30px;
+  animation-name: circOne;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes circOne {
+  0% {
+    transform: scale(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  90% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.sectionThree .sectionThreeGridThree {
+  grid-area: divThree;
+}
+
+.sectionThree .sectionThreeGridThree p {
+  font: normal 48px "manrope", sans-serif;
+  color: #eee9e9;
+  text-align: right;
+  margin-top: 25px;
+}
+
+.sectionThree .sectionThreeGridFour {
+  grid-area: divFour;
+}
+
+.sectionThree .sectionThreeGridFour .imgCiculoSectionThreeTwo {
+  width: 33px;
+  z-index: 2;
+  position: relative;
+  left: 276px;
+  bottom: 8px;
+}
+
+.sectionThree .sectionThreeGridFour .imgCirculoSectionThreeThree {
+  width: 51px;
+  position: relative;
+  left: 230px;
+}
+
 .btn {
   padding: 10px;
   margin: 13px;
