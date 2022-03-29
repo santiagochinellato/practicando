@@ -1,28 +1,33 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
 
-.sectionFour {
+.sectionFive {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 100px 7%;
-  height: 550px;
-  .sectionFourContenedorImagenes {
-    .contenedorImagenesImgOne {
+  margin: 200px 7%;
+  height: 450px;
+  align-items: center;
+  .sectionFiveContenedorImagenes {
+    .contenedorImagenesSectionFiveImgOne {
       width: 448px;
+      position: relative;
+      top: 300px;
+      left: 100px;
     }
-    .contenedorImagenesImgTwo {
+    .contenedorImagenesSectionFiveImgTwo {
       height: 413px;
       position: relative;
-      bottom: 290px;
-      animation-name: pp;
+      bottom: 20px;
+      left: 220px;
+      animation-name: SFpp;
       animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
 
-      @keyframes pp {
+      @keyframes SFpp {
         0% {
           transform: translateY(-30px);
         }
@@ -35,83 +40,83 @@
         }
       }
     }
-    .contenedorImagenesImgThree {
+    .contenedorImagenesSectionFiveImgThree {
       width: 177px;
       position: relative;
-      bottom: 760px;
-      right: 470px;
-      animation-name: iconOne;
-      animation-duration: 3s;
+      bottom: 430px;
+      right: 170px;
+      animation-name: iconSFOne;
+      animation-duration: 5s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
 
-      @keyframes iconOne {
+      @keyframes iconSFOne {
         0% {
-          transform: translateY(-50px);
+          transform: translateX(60px) scale(0.8);
         }
         50% {
           transform: translateY(0px);
         }
 
         100% {
-          transform: translateY(-50px);
+          transform: translateX(60px) scale(0.8);
         }
       }
     }
-    .contenedorImagenesImgFour {
-      width: 120px;
+    .contenedorImagenesSectionFiveImgFour {
+      width: 179px;
       position: relative;
-      bottom: 1050px;
-      left: 320px;
-      animation-name: iconTwo;
-      animation-duration: 4s;
+      bottom: 400px;
+      left: 400px;
+      animation-name: iconSFTwo;
+      animation-duration: 5s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
 
-      @keyframes iconTwo {
+      @keyframes iconSFTwo {
         0% {
-          transform: translateY(-50px) translateX(10px);
+          transform: translateX(60px) scale(0.8);
         }
         50% {
           transform: translateY(0px);
         }
 
         100% {
-          transform: translateY(-50px) translateX(10px);
+          transform: translateX(60px) scale(0.8);
         }
       }
     }
-    .contenedorImagenesImgFive {
-      width: 232px;
+    .contenedorImagenesSectionFiveImgFive {
+      width: 158px;
       position: relative;
-      bottom: 750px;
-      left: 170px;
-      animation-name: iconFour;
-      animation-duration: 3s;
+      bottom: 350px;
+      left: -150px;
+      animation-name: iconSFFour;
+      animation-duration: 5s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
       animation-timing-function: ease-in-out;
 
-      @keyframes iconFour {
+      @keyframes iconSFFour {
         0% {
-          transform: translateY(-30px) translateX(30px);
+          transform: translateX(60px) scale(0.8);
         }
         50% {
           transform: translateY(0px);
         }
 
         100% {
-          transform: translateY(-30px) translateX(30px);
+          transform: translateX(60px) scale(0.8);
         }
       }
     }
   }
-  .sectionFourContenedorTextos {
+  .sectionFiveContenedorTextos {
     display: flex;
     flex-direction: column;
     width: 110%;
