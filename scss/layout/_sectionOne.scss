@@ -28,6 +28,7 @@
     input {
       width: 224px;
       margin: 0%;
+      height: 56px;
     }
   }
   .containerImages {
@@ -64,8 +65,7 @@
       bottom: 330px;
       left: 10px;
       animation-name: icon4;
-      -webkit-animation-duration: 3s;
-      animation-duration: 10s;
+      animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
@@ -91,8 +91,7 @@
       bottom: -60px;
       right: 10px;
       animation-name: icon5;
-      -webkit-animation-duration: 3s;
-      animation-duration: 10s;
+      animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
@@ -119,8 +118,7 @@
       top: -75px;
       right: -20px;
       animation-name: pp3;
-      -webkit-animation-duration: 3s;
-      animation-duration: 10s;
+      animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;
@@ -147,8 +145,7 @@
       right: 260px;
       top: 180px;
       animation-name: pp2;
-      -webkit-animation-duration: 3s;
-      animation-duration: 10s;
+      animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
       animation-iteration-count: infinite;
       -webkit-animation-timing-function: ease-in-out;

@@ -150,6 +150,7 @@
 .sectionOne .containerInfo input {
   width: 224px;
   margin: 0%;
+  height: 56px;
 }
 
 .sectionOne .containerImages {
@@ -186,7 +187,7 @@
   bottom: 330px;
   left: 10px;
   animation-name: icon4;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -210,7 +211,7 @@
   bottom: -60px;
   right: 10px;
   animation-name: icon5;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -235,7 +236,7 @@
   top: -75px;
   right: -20px;
   animation-name: pp3;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -260,7 +261,7 @@
   right: 260px;
   top: 180px;
   animation-name: pp2;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -593,6 +594,7 @@
 
 .sectionFour .sectionFourContenedorTextos .btn {
   width: 149px;
+  height: 56px;
   margin: 0;
 }
 
@@ -725,6 +727,7 @@
 .sectionFive .sectionFiveContenedorTextos .btn {
   width: 149px;
   margin: 0;
+  height: 56px;
 }
 
 footer {
@@ -757,6 +760,8 @@ footer .contenedorInfoFooter .logoAndInfo p {
 footer .contenedorInfoFooter .logoAndInfo .btn {
   margin: 0%;
   margin-top: 16px;
+  height: 45px;
+  width: 125px;
 }
 
 footer .contenedorInfoFooter .menuOneFooter {
@@ -830,7 +835,7 @@ footer .PieFooter {
 }
 
 footer .PieFooter p {
-  margin-top: 20px;
+  margin: 20px 0px 0px 19px;
   font-size: 13px;
   color: #a7a4af;
 }
@@ -873,7 +878,8 @@ footer .PieFooter img {
   background-color: #eee9e9;
   width: 170px;
   height: 96px;
-  border-radius: 20px;
+  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
