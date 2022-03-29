@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.cardEmpresas {
+  background-color: $colorTextoPrincipal;
+  width: 170px;
+  height: 96px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

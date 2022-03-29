@@ -91,6 +91,276 @@
   margin-right: 7%;
 }
 
+@font-face {
+  font-family: "manrope";
+  src: url("../../fonts/Manrope/static/Manrope-ExtraBold.ttf");
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Roman.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "helveticaMed";
+  src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Medium.ttf");
+  font-style: normal;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "helveticaBold";
+  src: url("../../fonts/helvetica-neue/HelveticaNeueCyr-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+.sectionOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 150px 0px 230px 0px;
+  max-height: 800px;
+}
+
+.sectionOne .containerInfo {
+  display: flex;
+  flex-direction: column;
+  color: #eee9e9;
+  margin: 0;
+  align-self: center;
+}
+
+.sectionOne .containerInfo h1 {
+  font: normal 56px "helveticaBold", sans-serif;
+  margin-bottom: 24px;
+  width: 563px;
+}
+
+.sectionOne .containerInfo p {
+  font: normal 22px "helveticaMed", sans-serif;
+  margin-bottom: 48px;
+  width: 563px;
+}
+
+.sectionOne .containerInfo input {
+  width: 224px;
+  margin: 0%;
+}
+
+.sectionOne .containerImages {
+  position: relative;
+}
+
+.sectionOne .containerImages .imgCirculo {
+  position: relative;
+  width: 448px;
+  height: 447px;
+  z-index: 1;
+  animation-name: circ;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes circ {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.sectionOne .containerImages .imgIcon4 {
+  position: absolute;
+  width: 185px;
+  z-index: 2;
+  bottom: 330px;
+  left: 10px;
+  animation-name: icon4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes icon4 {
+  0% {
+    transform: translateY(-30px) translateX(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30px) translateX(10px);
+  }
+}
+
+.sectionOne .containerImages .imgIcon5 {
+  position: absolute;
+  width: 185px;
+  z-index: 2;
+  bottom: -60px;
+  right: 10px;
+  animation-name: icon5;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes icon5 {
+  0% {
+    transform: translateY(30px) translateX(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(30px) translateX(10px);
+  }
+}
+
+.sectionOne .containerImages .imgPp3 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  z-index: 2;
+  top: -75px;
+  right: -20px;
+  animation-name: pp3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pp3 {
+  0% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+.sectionOne .containerImages .imgPp2 {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  z-index: 2;
+  right: 260px;
+  top: 180px;
+  animation-name: pp2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pp2 {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwo h2 {
+  color: #eee9e9;
+  font: normal 48px "manrope", sans-serif;
+  margin-bottom: 8px;
+}
+
+.sectionTwo p {
+  color: #eee9e9;
+  font: normal 18px "helvetica", sans-serif;
+  margin-bottom: 80px;
+}
+
+.sectionTwo .gridEmpresas {
+  display: grid;
+  grid-template-areas: ". . imgUno . ." ". imgDos . imgTres ." "imgCuatro . imgCinco .  imgSeis" ".  imgSiete .  imgOcho  ." ". . imgNueve . .";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+}
+
+.sectionTwo .gridEmpresas #imgUno {
+  grid-area: imgUno;
+}
+
+.sectionTwo .gridEmpresas #imgDos {
+  grid-area: imgDos;
+  position: relative;
+  bottom: 50%;
+}
+
+.sectionTwo .gridEmpresas #imgTres {
+  grid-area: imgTres;
+  position: relative;
+  bottom: 50%;
+}
+
+.sectionTwo .gridEmpresas #imgCuatro {
+  grid-area: imgCuatro;
+  position: relative;
+  bottom: 80%;
+}
+
+.sectionTwo .gridEmpresas #imgCinco {
+  grid-area: imgCinco;
+  position: relative;
+  bottom: 80%;
+}
+
+.sectionTwo .gridEmpresas #imgSeis {
+  grid-area: imgSeis;
+  position: relative;
+  bottom: 80%;
+}
+
+.sectionTwo .gridEmpresas #imgSiete {
+  grid-area: imgSiete;
+  position: relative;
+  bottom: 130%;
+}
+
+.sectionTwo .gridEmpresas #imgOcho {
+  grid-area: imgOcho;
+  position: relative;
+  bottom: 130%;
+}
+
+.sectionTwo .gridEmpresas #imgNueve {
+  grid-area: imgNueve;
+  position: relative;
+  bottom: 160%;
+}
+
+.sectionTwo .gridEmpresas .imgLogos {
+  width: 122px;
+  height: auto;
+}
+
 .btn {
   padding: 10px;
   margin: 13px;
@@ -118,6 +388,16 @@
 .btnTwo:hover {
   color: #8c72ff;
   background-color: #eee9e9;
+}
+
+.cardEmpresas {
+  background-color: #eee9e9;
+  width: 170px;
+  height: 96px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {

@@ -4,8 +4,12 @@
 
 // Layout
 @import "./layout/navbar";
+@import "./layout/sectionOne";
+@import "./layout/sectionTwo";
+
 // components
 @import "./components/botones";
+@import "./components/cardLogo";
 // mixins
 @import "./utilities/mixins";
 
