@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 150px 0px 230px 0px;
+  margin: 5% 7% 4% 7%;
   max-height: 800px;
 
   .containerInfo {
@@ -18,12 +18,12 @@
     h1 {
       font: $titulo;
       margin-bottom: 24px;
-      width: 563px;
+      width: 100%;
     }
     p {
       font: $textoPrincipal;
       margin-bottom: 48px;
-      width: 563px;
+      width: 100%;
     }
     input {
       width: 224px;
@@ -33,10 +33,12 @@
   }
   .containerImages {
     position: relative;
+    margin: 0 5%;
     .imgCirculo {
       position: relative;
-      width: 448px;
-      height: 447px;
+      width: 100%;
+      height: auto;
+      bottom: -10%;
       z-index: 1;
       animation-name: circ;
       -webkit-animation-duration: 3s;
@@ -60,10 +62,10 @@
     }
     .imgIcon4 {
       position: absolute;
-      width: 185px;
+      width: 40%;
       z-index: 2;
-      bottom: 330px;
-      left: 10px;
+      bottom: 70%;
+      left: 0%;
       animation-name: icon4;
       animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
@@ -85,11 +87,11 @@
       }
     }
     .imgIcon5 {
-      position: absolute;
-      width: 185px;
+      position: relative;
+      width: 40%;
       z-index: 2;
-      bottom: -60px;
-      right: 10px;
+      bottom: 20%;
+      right: -60%;
       animation-name: icon5;
       animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;
@@ -115,7 +117,7 @@
       width: 50%;
       height: auto;
       z-index: 2;
-      top: -75px;
+      top: -10%;
       right: -20px;
       animation-name: pp3;
       animation-duration: 3s;
@@ -142,8 +144,8 @@
       width: 50%;
       height: auto;
       z-index: 2;
-      right: 260px;
-      top: 180px;
+      right: 60%;
+      top: 40%;
       animation-name: pp2;
       animation-duration: 3s;
       -webkit-animation-iteration-count: infinite;

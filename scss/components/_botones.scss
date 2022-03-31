@@ -4,8 +4,7 @@
   padding: 10px;
   margin: 13px;
   border-radius: 100px;
-  font: $titulo;
-  font-size: 16px;
+  font: $textoMenu;
   color: $colorTextoBoton;
   &:hover {
     color: $colorTextoPrincipal;
@@ -17,8 +16,7 @@
   padding: 10px;
   margin: 13px;
   border-radius: 100px;
-  font: $titulo;
-  font-size: 16px;
+  font: $textoMenu;
   color: $colorTextoPrincipal;
   background-color: $colorTextoBoton;
   &:hover {

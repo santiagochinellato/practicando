@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
 
   h2 {
     color: $colorTextoPrincipal;
@@ -26,11 +27,16 @@
       ".  imgSiete .  imgOcho  ."
       ". . imgNueve . .";
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+
+    justify-items: center;
+
+    width: 80%;
 
     #imgUno {
       grid-area: imgUno;
+      
     }
     #imgDos {
       grid-area: imgDos;
@@ -71,11 +77,6 @@
       grid-area: imgNueve;
       position: relative;
       bottom: 160%;
-    }
-
-    & .imgLogos {
-      width: 122px;
-      height: auto;
     }
   }
 }

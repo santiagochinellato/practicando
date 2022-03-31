@@ -1,0 +1,19 @@
+.PieFooter {
+  margin: 100px 0px;
+  font: normal 1.125rem "helvetica", sans-serif;
+  color: #eee9e9;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #2b2931;
+}
+
+.PieFooter p {
+  margin: 20px 0px 0px 19px;
+  font-size: 13px;
+  color: #a7a4af;
+}
+
+.PieFooter img {
+  margin: 20px 19px;
+  width: 16px;
+}

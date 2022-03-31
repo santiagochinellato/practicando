@@ -14,8 +14,12 @@
 // components
 @import "./components/botones";
 @import "./components/cardLogo";
-// mixins
+@import "./components/gradienteTexto";
+@import "./components/backToTop"; // mixins
 @import "./utilities/mixins";
+
+// mediaQueries
+@import "./mediaqueries/mediaQueries";
 
 body {
   background-color: $colorBackground;

@@ -1,0 +1,32 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+@media (min-width: 1490px) and (max-width: 1590px) {
+  html {
+    font-size: 130%;
+  }
+  nav {
+    font-size: 150% !important;
+  }
+  .sectionThree {
+    margin: 8% 4% 0 2%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 40% 10%;
+    grid-template-areas:
+      "divOne divTwo "
+      "divOne divThree "
+      "divFour divThree ";
+
+    .sectionThreeGridThree {
+      grid-area: divThree;
+      p {
+        font: $subtitulo;
+        color: $colorTextoPrincipal;
+        text-align: right;
+        margin-top: 25px;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}

@@ -6,10 +6,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 0px;
+  margin: 2% 0px;
   img {
-    width: 171px;
-    height: 32px;
+    width: 15%;
+    height: auto;
     margin-left: 7%;
   }
   nav ul {
@@ -20,7 +20,7 @@
 
     li {
       position: relative;
-      margin: 0px 25px;
+      margin: 0px 15%;
       color: $colorTextoPrincipal;
       display: flex;
       flex-direction: column;
